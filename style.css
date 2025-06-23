@@ -1,0 +1,43 @@
+body {
+  background: #fdf3e7;
+  font-family: 'Comic Sans MS', sans-serif;
+  padding: 20px;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  color: #e60012;
+  text-shadow: 2px 2px #ffd700;
+  font-size: 2.8em;
+}
+
+.power-card {
+  background: #fff5c3;
+  border: 2px dashed #e60012;
+  margin: 20px auto;
+  max-width: 350px;
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: 4px 4px #ffcc00;
+  transition: transform 0.3s;
+}
+
+.power-card:hover {
+  transform: scale(1.05);
+}
+
+.power-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #0047ab;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1em;
+}
